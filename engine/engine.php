@@ -247,10 +247,10 @@ $mail->Port = 465;// Always set content-type when sending HTML email
 
 
 //Set your existing gmail address as user name
-$mail->Username ='replynot1234@gmail.com';
+$mail->Username ='your@email.com';
 
 //Set the password of your gmail address here
-$mail->Password = 'Noreply@1234';
+$mail->Password = 'Password';
 if(!$mail->send()) {
   $msg="Email is not sent.";
 
